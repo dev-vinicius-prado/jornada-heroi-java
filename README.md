@@ -1,67 +1,59 @@
 # 🦸 Universidade UA – Jornada de Heróis em Java
 
-> “Está tudo bem… por que **eu cheguei!!!**!” – *All Might*
+> “Controlar o tipo... é controlar o poder!” – *Midnight-sensei*
 
-![All might](./assets/img/allmight.jpg)
+![Midnight](./assets/img/midnight.png)
 ---
 
 ## 📚 Saudações, Aluno(a) da UA!
 
-Eu, seu **Símbolo da Paz**, All Might, estou aqui para te guiar na nobre jornada de se tornar um herói e dominar Java de
-forma HEROICA! Sob minha orientação — e com a vigilância da nossa incrível professora Midnight — vamos encarar os
-desafios e emergir mais fortes. Prepare-se, pois você está prestes a despertar sua verdadeira individualidade… no
-código!
+Eu, a heroína da sedução e do controle, Midnight, estou aqui para envolver sua mente nas mais profundas tramas da
+programação Java! Com uma combinação de charme, disciplina e precisão técnica, serei sua guia nas áreas menos
+exploradas, mas mais poderosas do código. Prepare-se, aluno… pois nesta jornada, vamos despir o medo, algemar a
+dúvida e libertar seu verdadeiro potencial como desenvolvedor. O palco está montado. O show vai começar. 💋
+— Prof. **Midnight**, _Heroína da Lógica Fatal_
 
 ---
 
-## 🎯 Programa de Aulas separados em branches – 1h por dia
+## 🎯 Aula: Generics.
 
-| Dia       | Tema                                                                                                             | Objetivo HEROICO                                          |
-|-----------|------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------|
-| **Dia 1** | [Enums & Autoboxing](https://github.com/dev-vinicius-prado/jornada-heroi-java/tree/feature/enums-%26-autoboxing) | Construir sua base de herói: identidade e poder numérico! |
-| **Dia 2** | Generics                                                                                                         | Arme-se com flexibilidade e segurança em tipos.           |
-| **Dia 3** | Anotações & Varargs                                                                                              | Torne seu código elegante e poderoso como o Midnight!     |
-| **Dia 4** | Concurrency com Executor                                                                                         | Forje multitarefas velozes, dignas de um Pro Hero!        |
-| **Dia 5** | Try‑with‑resources & Diamond                                                                                     | Domine recursos sem complicações.                         |
-| **Dia 6** | Lambdas & Interfaces Funcionais                                                                                  | Aplique a explosão de poder funcional no seu código!      |
-| **Dia 7** | Streams API                                                                                                      | Transforme coleções em combos devastadores!               |
+> “Controlar o tipo... é controlar o poder!” – Midnight-sensei
+
+## Objetivo:
+
+Aprender a usar Generics para criar código flexível, seguro e sem casting desnecessário.
+
+Entender wildcards (<?>, <? extends T>, <? super T>)
 
 ---
 
-## 💥 Como cada sessão funciona
+## 📚 Conteúdo Estudado
 
-1. **Teoria FLASH (10–15 min)** – Explicação rápida com meu sorriso motivador!
-2. **Hands‑on HEROICO (35–40 min)** – Código, testes e… vitória!
-3. **Retrospectiva RÁPIDA (5 min)** – Feedback da Midnight e reforço mental!
+* Fundamentos de Generics: List<T>, Map<K, V>, métodos com \<T>
+* Uso de wildcards:
+    * \<?>: leitura segura
+    * \<? extends T>: leitura de subtipos
+    * \<? super T>: escrita segura
 
----
+> Frase-chave: "Extends lê, Super escreve!"
 
-## 🌟 Clima Inspirador
+## 💻 Exercícios Práticos Realizados
 
-> **“Se um herói não inspira esperança, então não é digno de ser chamado herói.”**  
-> – *All Might*
+- ✅ Criação de listas genéricas (List\<String>, List\<Integer>)
+- ✅ Método genérico imprimirLista(List\<T>)
+- ✅ Funções usando <? extends Number> e <? super Integer>
+- ✅ Testes e observações de restrições de escrita e leitura
+- ✅ Desafio final: classe genérica HeroBox\<T> com métodos setItem, getItem e printClass()
 
-- Cada linha de código é um passo rumo ao “One For All” da sua carreira.
-- E quando o desafio pesar… lembre-se: "PLUS ULTRA!" 💥
+## 🧠 Aprendizados Importantes
 
----
-
-## 🚀 Terminologia UA Style
-
-- **Quirk** → Seu conhecimento; use-o com sabedoria.
-- **One For All** → Seu domínio do Java.
-- **Midnight Mode** → Quando quer revisão mais profunda.
-- **All Might PLUS ULTRA** → Comemore cada progresso!
-
----
-
-🕒 **Caro aluno(a), declare agora mesmo com seu coração heroico: "Vou permanecer firme até o fim!" Sua jornada apenas
-começou… e eu sempre estarei aqui!**
-
-**Força máxima, sempre!**  
-– **All Might** (com a bênção da Midnight‑sensei)
+* Generics evitam casts perigosos e aumentam a legibilidade do código.
+* \<? extends T> é ideal para leitura, mas bloqueia escrita.
+* \<? super T> é ideal para escrever dados com segurança, mas não permite leitura do tipo original.
+* Criar métodos e estruturas genéricas traz reutilização e flexibilidade no design.
 
 ---
 
-*Este README é obra de All Might, inspirado pelos treinamentos de heróis na UA University – obrigado por me permitir ser
+*Este README é obra da Prof. Midnight e eu, um aluno inspirado pelos treinamentos de heróis na UA University – obrigado
+por fazer
 parte dessa jornada!*
