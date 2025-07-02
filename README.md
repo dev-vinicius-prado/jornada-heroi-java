@@ -19,7 +19,7 @@ código!
 | Dia       | Tema                                                                                                             | Objetivo HEROICO                                          |
 |-----------|------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------|
 | **Dia 1** | [Enums & Autoboxing](https://github.com/dev-vinicius-prado/jornada-heroi-java/tree/feature/enums-%26-autoboxing) | Construir sua base de herói: identidade e poder numérico! |
-| **Dia 2** | Generics                                                                                                         | Arme-se com flexibilidade e segurança em tipos.           |
+| **Dia 2** | [Generics](https://github.com/dev-vinicius-prado/jornada-heroi-java/tree/feature/generics)                       | Arme-se com flexibilidade e segurança em tipos.           |
 | **Dia 3** | Anotações & Varargs                                                                                              | Torne seu código elegante e poderoso como o Midnight!     |
 | **Dia 4** | Concurrency com Executor                                                                                         | Forje multitarefas velozes, dignas de um Pro Hero!        |
 | **Dia 5** | Try‑with‑resources & Diamond                                                                                     | Domine recursos sem complicações.                         |
